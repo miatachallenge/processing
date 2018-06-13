@@ -1,0 +1,18 @@
+package: github.com/miatachallenge/process
+import:
+- package: github.com/robertkrimen/otto
+- package: gopkg.in/sourcemap.v1
+  version: ^1.0.5
+- package: github.com/sirupsen/logrus
+  version: ^1.0.5
+  repo: git@github.com:sirupsen/logrus.git
+- package: gopkg.in/gorethink/gorethink.v4
+  version: ^4.0.0
+- package: github.com/sdomino/scribble
+- package: github.com/jcelliott/lumber
+- package: gopkg.in/Iwark/spreadsheet.v2
+- package: golang.org/x/oauth2
+- package: github.com/flimzy/kivik
+  version: ^1.7.3
+- package: github.com/go-kivik/couchdb
+  version: ^1.7.2

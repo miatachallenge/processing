@@ -1,0 +1,92 @@
+hash: a346894f47e61b48c1cac6677cecb6a90b5e6bfdb0c6c7967d41d30225a9f8d9
+updated: 2018-06-13T18:01:30.356049235+02:00
+imports:
+- name: cloud.google.com/go
+  version: 26274970d2d1b37be99c584b68bef5d879f0557e
+  subpackages:
+  - compute/metadata
+- name: github.com/cenkalti/backoff
+  version: f756bc9a37f808627c8c1b26d2d6ea40c468440b
+- name: github.com/flimzy/kivik
+  version: b5feaa5fff611396d56e55f982e1d8c0d728128b
+  subpackages:
+  - driver
+  - errors
+- name: github.com/go-kivik/couchdb
+  version: 766c0e8f8e0cb37d936da174939017601eab0ff7
+  subpackages:
+  - chttp
+- name: github.com/golang/protobuf
+  version: b4deda0973fb4c70b50d226b1af49f3da59f5265
+  subpackages:
+  - proto
+- name: github.com/gorilla/websocket
+  version: ea4d1f681babbce9545c9c5f3d5194a789c89f5b
+- name: github.com/hailocab/go-hostpool
+  version: e80d13ce29ede4452c43dea11e79b9bc8a15b478
+- name: github.com/imdario/mergo
+  version: 163f41321a19dd09362d4c63cc2489db2015f1f4
+- name: github.com/jcelliott/lumber
+  version: dd349441af25132d146d7095c6693a15431fc9b1
+- name: github.com/opentracing/opentracing-go
+  version: 1949ddbfd147afd4d964a9f00b24eb291e0e7c38
+  subpackages:
+  - ext
+  - log
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/robertkrimen/otto
+  version: 03d472dc43abece8691e609a23d295ab732abba6
+- name: github.com/sdomino/scribble
+  version: f328a97d7ce2445d27e611065eb0483cbd97343b
+- name: github.com/sirupsen/logrus
+  version: c155da19408a8799da419ed3eeb0cb5db0ad5dbc
+  repo: git@github.com:sirupsen/logrus.git
+- name: golang.org/x/crypto
+  version: 8ac0e0d97ce45cd83d1d7243c060cb8461dda5e9
+  subpackages:
+  - pbkdf2
+  - ssh/terminal
+- name: golang.org/x/net
+  version: 1c05540f6879653db88113bc4a2b70aec4bd491f
+  subpackages:
+  - context
+  - context/ctxhttp
+  - publicsuffix
+- name: golang.org/x/oauth2
+  version: 1e0a3fa8ba9a5c9eb35c271780101fdaf1b205d7
+  subpackages:
+  - google
+  - internal
+  - jws
+  - jwt
+- name: golang.org/x/sys
+  version: 07c182904dbd53199946ba614a412c61d3c548f5
+  subpackages:
+  - unix
+  - windows
+- name: google.golang.org/appengine
+  version: b1f26356af11148e710935ed1ac8a7f5702c7612
+  subpackages:
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+  - internal/urlfetch
+  - urlfetch
+- name: gopkg.in/fatih/pool.v2
+  version: 010e0b745d12eaf8426c95f9c3924d81dd0b668f
+- name: gopkg.in/gorethink/gorethink.v4
+  version: eec03bd47cfc11965a9de004ff86add2a88e65b0
+  subpackages:
+  - encoding
+  - ql2
+  - types
+- name: gopkg.in/Iwark/spreadsheet.v2
+  version: d960197740d99051628121d9509c0621d4702a99
+- name: gopkg.in/sourcemap.v1
+  version: 6e83acea0053641eff084973fee085f0c193c61a
+testImports: []
