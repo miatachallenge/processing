@@ -3,7 +3,7 @@
 A web application that runs a pipeline transforming information written into
 a RethinkDB database by Sync to proper laps, filtering them using scripts,
 attributing them to a driver using a Google Spreadsheet and eventually saving
-them to a CouchDB server using a format renderably by [mc.nickesh.pl](http://mc.nickesh.pl).
+them to a CouchDB server using a format renderable by [mc.nickesh.pl](http://mc.nickesh.pl).
 
 ![Screenshot of the UI](https://i.imgur.com/2RjLqGG.png)
 
