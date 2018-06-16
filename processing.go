@@ -287,6 +287,7 @@ func process(ctx context.Context) error {
 				}
 
 				docID, _, err := db.CreateDoc(ctx, LegacyLap{
+					CouchID:   lap.ID,
 					LapID:     lap.ID,
 					DriverID:  lap.Driver,
 					Microtime: lap.LapTime * 1000, // milliseconds to microseconds
